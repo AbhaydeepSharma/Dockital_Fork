@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "11506958924",
-    "project_id": "dockital",
-    "storage_bucket": "dockital.appspot.com"
+    "project_number": "481336494554",
+    "project_id": "dockital-fork-d4c23",
+    "storage_bucket": "dockital-fork-d4c23.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:11506958924:android:b7c2663974e54ebb23eae9",
+        "mobilesdk_app_id": "1:481336494554:android:f1a2ee170cb85133f598e3",
         "android_client_info": {
           "package_name": "com.androidDev.dockital"
         }
       },
       "oauth_client": [
         {
-          "client_id": "11506958924-kk03lgf42948q7c3ouqcdp2b2tvkoibn.apps.googleusercontent.com",
+          "client_id": "481336494554-0f6f32l2m8g836mpa91el1rk2hbc88ig.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDMeY6hcu9N357r1NwbNLrxQn5ftUupE-c"
+          "current_key": "AIzaSyComIFPfKxLbtnXxlq39hdEurwo-Hq8L2s"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "11506958924-kk03lgf42948q7c3ouqcdp2b2tvkoibn.apps.googleusercontent.com",
+              "client_id": "481336494554-0f6f32l2m8g836mpa91el1rk2hbc88ig.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

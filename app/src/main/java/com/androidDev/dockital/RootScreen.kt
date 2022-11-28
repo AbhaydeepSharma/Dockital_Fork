@@ -21,13 +21,14 @@ import com.androidDev.dockital.screens.postNFT.MintPush
 import com.androidDev.dockital.screens.profileNav.MainProfile
 import com.androidDev.dockital.screens.profileNav.MainProfilePreview
 import com.androidDev.dockital.screens.statsNav.StatsScreen
+import com.google.firebase.firestore.FirebaseFirestore
 
 //import com.androidDev.dockital.screens.Search.SearchScreen
 
 @SuppressLint("UnusedMaterialScaffoldPaddingParameter")
 
 @Composable
-fun RootScreen(mainViewModel: mainViewModel) {
+fun RootScreen(mainViewModel: mainViewModel,db: FirebaseFirestore) {
     val navigationController = rememberNavController()
     var shouldShowOnBoarding by rememberSaveable { mutableStateOf(true) }
 
@@ -73,8 +74,8 @@ fun RootScreen(mainViewModel: mainViewModel) {
 
             composable(NavigationItem.Profile.route) {
                 //Text("Profile")
-                //LoginScreen()
-                MainProfile(navController = navigationController)
+                LoginScreen(db = db)
+                //MainProfile(navController = navigationController)
             }
         }
 
